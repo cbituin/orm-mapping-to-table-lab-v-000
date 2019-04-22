@@ -30,11 +30,19 @@ class Student
   end
 
   def save
+    sql = <<-SQL
 
+    SQL
+
+    DB[:conn].execute(sql)
   end
 
   def self.create
+    sql = <<-SQL
 
+    SQL
+
+    DB[:conn].execute(sql)
   end
 
 
