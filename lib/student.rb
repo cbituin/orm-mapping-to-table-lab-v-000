@@ -43,7 +43,6 @@ class Student
       student = Student.new(name, album)
       student.save
       student
-
   end
 
 
